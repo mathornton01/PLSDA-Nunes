@@ -13,7 +13,7 @@ install_github('mathornton01/PLSDA-Nunes');
 Now R will display several messages that give various updates of the status of the download and installation.  Once the installation 
 has been completed, the user can load the library with the typical 'library' and 'require' functions. 
 ```r
-library(YinGenomicDFTDistances); 
+library(NunesPLSDA); 
 ```
 
 ## Checking the Documentation 
