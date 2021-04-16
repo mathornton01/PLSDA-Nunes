@@ -1,0 +1,7 @@
+Package: PLSDANunes
+Title: Partial Least Squares Implementation from Cleiton Nunes MatLab
+Version: 0.1
+Authors@R: person("Micah", "Thornton", email = "mathornton@smu.edu",
+                  role = c("aut", "cre"))
+Description: The package implements and extends a general framework around the Partial Least Squares regression, as well as the discriminant analysis procedures.  The algorithmic implementation was created to produce the same results as the initial MatLab script by Cleiton A. Nunes, with the exception of the singular value decomposition.  Because the MatLab economical version of the SVD is not readily available in R the methods diverge slightly at this step, however this shortcomming of the method in fidelitously recreating the same does not reflect poorly on the results of the R script, as they are naturally more accurate since the full version and not the (economical) version of the SVD is used.  The results can be verified to be identical from the MatLab and the R scripts by simply removing the econ argument of the SVD in the original MatLab code. 
+RoxygenNote: 7.1.1
