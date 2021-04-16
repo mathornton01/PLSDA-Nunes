@@ -8,7 +8,7 @@ Once the devtools package has been installed, the user can load the library usin
 then from the devtools package the user can install the PLSDA-R-Package by using the 'install_github' function. 
 ```r
 library(devtools);
-install_github('mathornton01/PLSDA-Nunes'); 
+install_github('daehwanKimLab/InfectiousDisease/Code/R-Packages/PLSDA-Nunes'); 
 ```
 Now R will display several messages that give various updates of the status of the download and installation.  Once the installation 
 has been completed, the user can load the library with the typical 'library' and 'require' functions. 
